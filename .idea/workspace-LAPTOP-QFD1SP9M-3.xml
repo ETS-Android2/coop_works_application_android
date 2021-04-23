@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2bb395a3-b7b1-43e6-8777-af5f9b4828cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="New_Device_1_API_26" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="COOP WORKS - app test" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\Troels\OneDrive\privat\Programmering\COOP WORKS\App\COOP_WORKS_APK.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="ProjectId" id="1Z20CcouwhC6fmS9Ejtel3fCmpb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+    <property name="ApkExportedModule" value="app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_XL_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-09T12:14:16.060Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Troels\OneDrive\privat\Programmering\COOP WORKS\App\COOP WORKS - demo\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ANDROID/flutter_app" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="BUILD_VARIANTS_TAB" value="Flavors" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Troels\OneDrive\privat\Programmering\COOP WORKS\App\COOP WORKS - demo\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\Troels\OneDrive\privat\Programmering\COOP WORKS\App\COOP WORKS - app test\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.coopapp20.Data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.coopapp20.Data.Connection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Troels\OneDrive\privat\Programmering\COOP WORKS\App\COOP WORKS - demo\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bb395a3-b7b1-43e6-8777-af5f9b4828cd" name="Default Changelist" comment="" />
+      <created>1584021754618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584021754618</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="256" key="#PSD" timestamp="1595081166339">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="444" y="355" key="#PSD/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1594312921186" />
+    <state x="466" y="256" key="#PSD/0.0.2560.1040@0.0.2560.1040" timestamp="1595081166339" />
+    <state x="452" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1594825429710">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="452" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1594825429710" />
+    <state x="320" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594895591648">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="320" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1594895591648" />
+    <state x="405" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595081974765">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="405" y="382" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040@0.0.2560.1040" timestamp="1595081974765" />
+    <state x="528" y="259" key="AndroidCreateResourceFileDialog" timestamp="1594835363688">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="528" y="259" key="AndroidCreateResourceFileDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1594835363688" />
+    <state x="315" y="278" key="FileChooserDialogImpl" timestamp="1601288051163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="315" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601288051163" />
+    <state x="420" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1600176202658" />
+    <state width="1234" height="257" key="GridCell.Tab.0.bottom" timestamp="1595079204190">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="257" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1594838374011" />
+    <state width="1234" height="257" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1595079204190" />
+    <state width="1234" height="257" key="GridCell.Tab.0.center" timestamp="1595079204190">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="257" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1594838374011" />
+    <state width="1234" height="257" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1595079204190" />
+    <state width="1234" height="257" key="GridCell.Tab.0.left" timestamp="1595079204190">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="257" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1594838374011" />
+    <state width="1234" height="257" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1595079204190" />
+    <state width="1234" height="257" key="GridCell.Tab.0.right" timestamp="1595079204190">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="257" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1594838374011" />
+    <state width="1234" height="257" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1595079204190" />
+    <state x="0" y="516" key="com.intellij.ide.util.TipDialog" timestamp="1600176191023">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="0" y="516" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1594573888045" />
+    <state x="0" y="516" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1600176191023" />
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-1" timestamp="1595081215235">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1594837666493" />
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1595081215235" />
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-2" timestamp="1594223476219">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-2/0.0.2560.1040@0.0.2560.1040" timestamp="1594223476219" />
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-3" timestamp="1594224765801">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1273" y="0" width="1294" height="1047" key="dock-window-3/0.0.2560.1040@0.0.2560.1040" timestamp="1594224765801" />
+    <state x="303" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1592925580362">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="303" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1592925580362" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/coopapp20/zOtherFiles/AdapterSwipeHelper.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

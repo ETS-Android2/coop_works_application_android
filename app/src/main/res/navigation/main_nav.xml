@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/taskFrag">
+
+    <fragment
+        android:id="@+id/taskFrag"
+        android:name="com.example.coopapp20.Tasks.Task.TaskFrag"
+        android:label="TaskFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/productFrag"
+        android:name="com.example.coopapp20.Products.Product.ProductFrag"
+        android:label="ProductFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/contactFrag"
+        android:name="com.example.coopapp20.Contact.Contact.ContactFrag"
+        android:label="ContactFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/scheduleFrag"
+        android:name="com.example.coopapp20.Scedule.Schedule.ScheduleFrag"
+        android:label="ScheduleFrag"
+        tools:layout="@layout/frag_schedule"/>
+    <fragment
+        android:id="@+id/addTaskSimpleFrag"
+        android:name="com.example.coopapp20.Tasks.Task.AddTaskSimpleFrag"
+        android:label="AddTaskSimpleFrag"
+        tools:layout="@layout/frag_task_add"/>
+    <fragment
+        android:id="@+id/contactInteractionFrag"
+        android:name="com.example.coopapp20.Contact.ContactInteractionList.ContactInteractionFrag"
+        android:label="ContactInteractionFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/contactDetailFrag"
+        android:name="com.example.coopapp20.Contact.ContactDetail.ContactDetailFrag"
+        android:label="fragment_contact_detail"
+        tools:layout="@layout/frag_contact_detail" />
+    <fragment
+        android:id="@+id/contactCallFrag"
+        android:name="com.example.coopapp20.Contact.ContactVoiceChat.ContactCallFrag"
+        android:label="ContactCallFrag"
+        tools:layout="@layout/frag_contact_call"/>
+    <fragment
+        android:id="@+id/guideFrag"
+        android:name="com.example.coopapp20.Info.GuideFrag"
+        android:label="GuideFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/feedbackFrag"
+        android:name="com.example.coopapp20.Info.FeedbackFrag"
+        android:label="FeedbackFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/devInfoFrag"
+        android:name="com.example.coopapp20.Info.DevInfoFrag"
+        android:label="DevInfoFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/scheduleAdminParamFrag"
+        android:name="com.example.coopapp20.Administration.Schedule.ScheduleAdminParamFrag"
+        android:label="ScheduleAdminParamFrag"
+        tools:layout="@layout/frag_admin_schedule_param"/>
+    <fragment
+        android:id="@+id/addContactFrag"
+        android:name="com.example.coopapp20.Administration.User.AddUserFrag"
+        android:label="fragment_add_user"
+        tools:layout="@layout/frag_admin_user_add" />
+    <fragment
+        android:id="@+id/addDepartmentFrag"
+        android:name="com.example.coopapp20.Administration.Department.DepartmentAddFrag"
+        android:label="AddDepartmentFrag"
+        tools:layout="@layout/frag_admin_department_add"/>
+    <fragment
+        android:id="@+id/scannerFrag"
+        android:name="com.example.coopapp20.Products.ScannerFrag"
+        android:label="fragment_product_scan"
+        tools:layout="@layout/frag_product_scan" />
+    <fragment
+        android:id="@+id/productChangeFrag"
+        android:name="com.example.coopapp20.Products.ProductChangeList.ProductChangeFrag"
+        android:label="ProductChangeFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/productDetailFrag"
+        android:name="com.example.coopapp20.Products.ProductDetail.ProductDetailFrag"
+        android:label="ProductDetailFrag"
+        tools:layout="@layout/frag_product_detail"/>
+    <fragment
+        android:id="@+id/addProductFrag"
+        android:name="com.example.coopapp20.Products.AddProductFrag"
+        android:label="fragment_add_product"
+        tools:layout="@layout/frag_admin_product_add" />
+    <fragment
+        android:id="@+id/scheduleShiftChangeFrag"
+        android:name="com.example.coopapp20.Scedule.ScheduleShiftChange.OverView.ScheduleShiftChangeFrag"
+        android:label="ScheduleShiftChangeFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/addShiftFrag"
+        android:name="com.example.coopapp20.Administration.Schedule.AddShiftFrag"
+        android:label="fragment_add_shift"
+        tools:layout="@layout/frag_admin_schedule_shift_add" />
+    <fragment
+        android:id="@+id/scheduleShiftChangeDetailFrag"
+        android:name="com.example.coopapp20.Scedule.ScheduleShiftChange.Detail.ScheduleShiftChangeDetailFrag"
+        android:label="ScheduleShiftChangeDetailFrag"
+        tools:layout="@layout/frag_schedule_shiftchange_detail"/>
+    <fragment
+        android:id="@+id/finishedTaskFrag"
+        android:name="com.example.coopapp20.Tasks.TaskFinished.FinishedTaskFrag"
+        android:label="FinishedTaskFrag"
+        tools:layout="@layout/frag_recyclerview"/>
+    <fragment
+        android:id="@+id/taskDetailFrag"
+        android:name="com.example.coopapp20.Tasks.TaskDetail.TaskDetailFrag"
+        android:label="fragment_task_detail"
+        tools:layout="@layout/frag_task_detail" />
+    <fragment
+        android:id="@+id/addTaskDynamicParameterFrag"
+        android:name="com.example.coopapp20.Administration.Task.TaskDynamicParamAddFrag"
+        android:label="AddTaskDynamicParameterFrag"
+        tools:layout="@layout/frag_recyclerview">
+        <action
+            android:id="@+id/DynamicToStatic"
+            app:destination="@id/addTaskStaticParameterFrag"
+            app:popUpTo="@id/addTaskDynamicParameterFrag"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/schedulePrefOffDayRequestFrag"
+        android:name="com.example.coopapp20.Scedule.SchedulePref.SchedulePrefOffDayRequestFrag"
+        android:label="SchedulePrefOffDayRequestFrag"
+        tools:layout="@layout/frag_schedule_pref_offdayrequests"/>
+    <fragment
+        android:id="@+id/schedulePrefShiftFrag"
+        android:name="com.example.coopapp20.Scedule.SchedulePref.SchedulePrefShiftFrag"
+        android:label="SchedulePrefShiftFrag"
+        tools:layout="@layout/frag_schedule_pref_shifts"/>
+    <fragment
+        android:id="@+id/scheduleAdminShiftsFrag"
+        android:name="com.example.coopapp20.Administration.Schedule.ScheduleAdminShiftsFrag"
+        android:label="ScheduleAdminShiftsFrag"
+        tools:layout="@layout/frag_admin_schedule_shift"/>
+    <fragment
+        android:id="@+id/settingsFrag"
+        android:name="com.example.coopapp20.Info.SettingsFrag"
+        android:label="SettingsFrag" />
+    <fragment
+        android:id="@+id/taskAdministration"
+        android:name="com.example.coopapp20.Administration.Task.TaskAdminFrag"
+        android:label="TaskAdministration" />
+
+    <fragment
+        android:id="@+id/addTaskStaticParameterFrag"
+        android:name="com.example.coopapp20.Administration.Task.TaskStaticParamAddFrag"
+        android:label="TaskAdministration"
+        tools:layout="@layout/frag_admin_task_static_add">
+        <action
+            android:id="@+id/StaticToDynamic"
+            app:destination="@id/addTaskDynamicParameterFrag"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/addTaskStaticParameterFrag"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/userAdministration"
+        android:name="com.example.coopapp20.Administration.User.UserAdminFrag"
+        android:label="UserAdministration" />
+    <fragment
+        android:id="@+id/departmentAdministration"
+        android:name="com.example.coopapp20.Administration.Department.DepartmentAdminFrag"
+        android:label="DepartmentAdministration" />
+    <fragment
+        android:id="@+id/scheduleShiftChangeResponseFrag"
+        android:name="com.example.coopapp20.Scedule.ScheduleShiftChange.Detail.ScheduleShiftChangeResponseFrag"
+        android:label="ScheduleShiftChangeResponseFrag" />
+</navigation>

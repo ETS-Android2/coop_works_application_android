@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#CF1727</color>
+    <color name="PrimaryDark">#FFCF1727</color>
+    <color name="Accent">#CF1727</color>
+    <color name="Background">#33E6C29E</color>
+    <color name="Message1">#D81B60</color>
+    <color name="Transparent">#00FFFFFF</color>
+
+    <color name="LightGray">#919191</color>
+    <color name="MediumGray">#757575</color>
+    <color name="DarkGray">#FF585858</color>
+
+    <color name="Servicearbejder">#FF449E0E</color>
+    <color name="Bager">#D59930</color>
+    <color name="Slagter">#FFBE0000</color>
+    <color name="Afdelingsleder">#0073FF</color>
+
+    <color name="White">#FFFFFF</color>
+
+    <color name="TaskPrioritization0">#FFBE0000</color>
+    <color name="TaskPrioritization1">#FFFF5000</color>
+    <color name="TaskPrioritization2">#FFFFC800</color>
+    <color name="TaskPrioritization3">#FF449E0E</color>
+
+    <color name="ShiftPrioritization0">#FFBE0000</color>
+    <color name="ShiftPrioritization1">#FFFF8C00</color>
+    <color name="ShiftPrioritization2">#FFD1D1D1</color>
+    <color name="ShiftPrioritization3">#FF449E0E</color>
+
+    <color name="StatusDenied">#FFBE0000</color>
+    <color name="StatusPending">#FFFF8C00</color>
+    <color name="StatusAccepted">#FF449E0E</color>
+
+    <color name="ActivityNoShift">#80FFFFFF</color>
+    <color name="ActivityBreak">#FFD1D1D1</color>
+    <color name="ActivityUnavailable">#FFFF8C00</color>
+    <color name="ActivityAvailable">#FF449E0E</color>
+
+    <color name="Inactive">#80FFFFFF</color>
+
+    <color name="ReceivedMessage">#80FFFFFF</color>
+    <color name="SentMessage">#0022FF</color>
+
+    <color name="SlideBackGround">#E39CD69C</color>
+
+
+</resources>

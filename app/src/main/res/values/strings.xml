@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Coop App 2.0</string>
+
+    <string name="BasicPreferences">CoopApp20_BasicPreferences</string>
+    <string name="FirstVisit">FirstVisit</string>
+    <string name="ServerName">ServerName</string>
+    <string name="ServerPassword">ServerPassword</string>
+    <string name="LoggedIn">LoggedIn</string>
+    <string name="CurrentUserId">CurrentUserEmployeeNr</string>
+    <string name="CurrentUsername">Username</string>
+    <string name="CurrentUserPassword">UserPassword</string>
+
+    <string name="Tasks">opgaver</string>
+    <string name="Contacts">kontakter</string>
+    <string name="Products">produkter</string>
+    <string name="Schedule">skema</string>
+    <string name="SideMenu">sidemenu</string>
+
+    <string name="add">tilføj</string>
+    <string name="edit">ændre</string>
+    <string name="delete">slet</string>
+    <string name="add_change">tilføj ændring</string>
+    <string name="done">udført</string>
+    <string name="add_feedback">giv feedback</string>
+    <string name="are_you_sure">er du sikker?</string>
+
+    <string name="do_you_want_to_add_the_task">VIL DU ÆNDRE OPGAVEN?</string>
+    <string name="do_you_want_to_change_the_task">VIL DU TILFØJE OPGAVEN?</string>
+    <string name="task_must_have_title">opgave skal have titel</string>
+    <string name="edit_task">ændrer opgave</string>
+    <string name="add_task">tilføj opgave</string>
+    <string name="fill_required_fields"> udfyld påkrævede felter</string>
+
+    <string name="productfrag_noshowtext">tilføj produkt</string>
+    <string name="do_you_want_to_add_the_product">VIL DU ÆNDRE OPGAVEN?</string>
+    <string name="do_you_want_to_change_the_product">VIL DU TILFØJE OPGAVEN?</string>
+    <string name="barcode_not_available">opgave skal have titel</string>
+    <string name="edit_product">ændrer produkt</string>
+    <string name="add_product">tilføj produkt</string>
+
+
+    <string name="no_shifts">ingen vagter</string>
+    <string name="on_duty">på arbejde</string>
+    <string name="next_shift">næste vagt</string>
+
+    <string name="monday">mandag</string>
+    <string name="tuesday">tirsdag</string>
+    <string name="wednesday">onsdag</string>
+    <string name="thursday">torsdag</string>
+    <string name="friday">fredag</string>
+    <string name="saturday">lørdag</string>
+    <string name="sunday">søndag</string>
+
+    <string-array name="day_array">
+        <item>mandag</item>
+        <item>tirsdag</item>
+        <item>onsdag</item>
+        <item>torsdag</item>
+        <item>fredag</item>
+        <item>lørdag</item>
+        <item>søndag</item>
+    </string-array>
+
+    <string name="all">alle</string>
+
+    <string name="no_data">ingen data</string>
+
+    <string name="calling">ringer op</string>
+    <string name="call_ended">opkald afsluttet</string>
+    <string name="unknown">ukendt</string>
+
+    <string name="connection_failed_dialog_title">Databasen kunne ikke forbindes</string>
+    <string name="connection_failed_dialog_message"> 1. sørg for at enheden er koblet på lokalt wifi \n
+        2. prøv at forbinde til serveren igen\n
+        3. Genindtast servernavn og -adgangskode\n
+        4. Spørg øverste ledelse i butikken til råds\n
+        5. Ring til support: xxxx xxxx</string>
+    <string name="connection_failed_dialog_connect_btn_text">forbind</string>
+    <string name="connection_failed_dialog_proceed_btn_text">gå videre</string>
+    <string name="connection_failed_dialog_serversettings_btn_text">genindtast</string>
+
+    <string name="navigation_active_menu_available">klar</string>
+    <string name="navigation_active_menu_occupied">optaget</string>
+    <string name="navigation_active_menu_on_break">pause</string>
+    <string name="navigation_active_menu_no_shift">ingen vagt</string>
+
+    <string name="offdayrequest_popupmenuitem_reason">giv begrundelse</string>
+    <string name="offdayrequest_popupmenuitem_date">ændre dato</string>
+    <string name="offdayrequest_popupmenuitem_delete">annuller</string>
+    <string name="schedule_pref_shifts">vagter</string>
+    <string name="schedule_pref_vacation">ferie</string>
+    <string name="schedule_pref_offdays">fridag</string>
+
+
+</resources>

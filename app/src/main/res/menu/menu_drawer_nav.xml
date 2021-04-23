@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="menu">
+    <item android:title="resourcer">
+        <menu>
+            <group
+                android:id="@+id/resources"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item1"
+                    android:icon="@drawable/baseline_help_24"
+                    android:title="guide" />
+                <item
+                    android:id="@+id/item2"
+                    android:icon="@drawable/round_feedback_24"
+                    android:title="feedback hub" />
+                <item
+                    android:id="@+id/item3"
+                    android:icon="@drawable/sharp_info_24"
+                    android:title="udviklingsinfo" />
+                <item
+                    android:id="@+id/item4"
+                    android:icon="@drawable/round_settings_24"
+                    android:title="indstillinger" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="administration">
+        <menu>
+            <group
+            android:id="@+id/administration"
+            android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item5"
+                    android:icon="@drawable/sharp_calendar_today_24"
+                    android:title="skema" />
+                <item
+                    android:id="@+id/item6"
+                    android:icon="@drawable/sharp_work_24"
+                    android:title="opgaver" />
+                <item
+                    android:id="@+id/item7"
+                    android:icon="@drawable/sharp_person_24"
+                    android:title="brugere" />
+                <item
+                    android:id="@+id/item8"
+                    android:icon="@drawable/sharp_group_24"
+                    android:title="afdelinger" />
+            </group>
+        </menu>
+    </item>
+    <item />
+    <item />
+
+
+</menu>

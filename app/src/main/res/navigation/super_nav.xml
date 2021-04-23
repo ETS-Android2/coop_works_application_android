@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/super_nav"
+    app:startDestination="@id/splashFrag">
+
+    <fragment
+        android:id="@+id/splashFrag"
+        android:name="com.example.coopapp20.Main.LoginActivity.SplashFrag"
+        android:label="SplashFrag" >
+        <action
+            android:id="@+id/SplashToMain"
+            app:destination="@id/mainActivity"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/splashFrag"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/SplashToSelection"
+            app:destination="@id/userSelectionFrag"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:popUpTo="@id/splashFrag"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/SplashToDemo"
+            app:destination="@id/demoGuideFrag"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:popUpTo="@id/splashFrag"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainActivity"
+        android:name="com.example.coopapp20.Main.MainFrag"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/userSelectionFrag"
+        android:name="com.example.coopapp20.Main.LoginActivity.UserSelectionFrag"
+        android:label="UserSelectionFrag" >
+        <action
+            android:id="@+id/SelectionToMain"
+            app:destination="@id/mainActivity"
+            app:popUpTo="@id/userSelectionFrag"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/demoGuideFrag"
+        android:name="com.example.coopapp20.Main.LoginActivity.DemoGuideFrag"
+        android:label="DemoGuideFrag" />
+</navigation>

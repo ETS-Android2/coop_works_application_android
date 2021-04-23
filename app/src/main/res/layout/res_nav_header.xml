@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="top|center_vertical"
+        android:adjustViewBounds="false"
+        android:foregroundGravity="bottom|center_vertical"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login_background" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/NavDrawerHeaderName"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_weight="0"
+            android:autoSizeTextType="uniform"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/NavDrawerHeaderShiftTime"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:paddingStart="16dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/NavDrawerHeaderTaskTime"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/NavDrawerHeaderFinishedTaskTime"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:paddingStart="16dp"
+            android:paddingEnd="0dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/NavHeaderStatusBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:autoSizeTextType="uniform"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Button"
+        android:textSize="18sp"
+        app:icon="@drawable/baseline_arrow_drop_down_24"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/NavHeaderImageFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:tint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="@+id/NavigationDrawerActiveColorImageView"
+            app:layout_constraintEnd_toEndOf="@+id/NavigationDrawerActiveColorImageView"
+            app:layout_constraintStart_toStartOf="@+id/NavigationDrawerActiveColorImageView"
+            app:layout_constraintTop_toTopOf="@+id/NavigationDrawerActiveColorImageView"
+            app:srcCompat="@drawable/filled_circle" />
+
+        <ImageView
+            android:id="@+id/NavHeaderImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@drawable/filled_circle"
+            android:backgroundTint="@color/MediumGray"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:tint="@color/White"
+            app:layout_constraintBottom_toBottomOf="@+id/NavigationDrawerActiveColorImageView"
+            app:layout_constraintEnd_toEndOf="@+id/NavigationDrawerActiveColorImageView"
+            app:layout_constraintStart_toStartOf="@+id/NavigationDrawerActiveColorImageView"
+            app:layout_constraintTop_toTopOf="@+id/NavigationDrawerActiveColorImageView"
+            app:srcCompat="@drawable/sharp_person_24" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
