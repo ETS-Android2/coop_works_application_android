@@ -21,7 +21,9 @@
         <activity
             android:name=".Main.LoginActivity.LoginActivity"
             android:noHistory="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="fullSensor"
+            android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

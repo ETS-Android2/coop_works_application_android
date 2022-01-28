@@ -4,11 +4,8 @@ import androidx.room.Embedded;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import com.example.coopapp20.zOtherFiles.DurationFormat;
-
 import java.time.Duration;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 @Entity(tableName = "FinishedTasks", ignoredColumns = {"Title","TimeString","DateTimeString","Divider"})
@@ -17,16 +14,16 @@ public class FinishedTaskObject {
     @PrimaryKey(autoGenerate = true)
     private Integer Id;
 
-    private LocalDate CompletionDate;
-    private LocalTime CompletionTime;
-    private Duration Duration;
-    private Integer Evaluation;
-    private String Comment;
-    private Integer UserId;
-    private Integer TaskId;
+    private final LocalDate CompletionDate;
+    private final LocalTime CompletionTime;
+    private final Duration Duration;
+    private final Integer Evaluation;
+    private final String Comment;
+    private final Integer UserId;
+    private final Integer TaskId;
 
     @Embedded(prefix = "emb_")
-    private TaskObject Task;
+    private final TaskObject Task;
 
     public FinishedTaskObject(Integer Id, LocalDate CompletionDate, LocalTime CompletionTime, Duration Duration, Integer Evaluation, String Comment, Integer UserId, Integer TaskId, TaskObject Task){
         this.Id = Id;

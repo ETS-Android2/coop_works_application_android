@@ -16,6 +16,7 @@ import com.example.coopapp20.databinding.ActivitySuperBinding;
 
 import java.util.Objects;
 
+
 public class LoginActivity extends AppCompatActivity {
 
     private MainViewModel viewModel;
@@ -56,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
                     viewModel.getSuperNavController().navigate(R.id.SplashToMain);
 
                 }else {
-                    navController.navigate(R.id.SplashToSelection);
+                    runOnUiThread(() -> navController.navigate(R.id.SplashToSelection));
                 }
             }
 

@@ -1,27 +1,23 @@
 package com.example.coopapp20.zOtherFiles;
 
 import android.graphics.Canvas;
-import android.graphics.Path;
 import android.graphics.drawable.Drawable;
-import android.icu.text.RelativeDateTimeFormatter;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.NonNull;
-import androidx.constraintlayout.solver.state.State;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterSwipeHelper extends androidx.recyclerview.widget.ItemTouchHelper.SimpleCallback {
 
-    private Drawable LeftIcon;
+    private final Drawable LeftIcon;
     private final Drawable LeftBackground;
-    private onSwipeListener LeftListener;
-    private Drawable RightIcon;
+    private final onSwipeListener LeftListener;
+    private final Drawable RightIcon;
     private final Drawable RightBackground;
-    private onSwipeListener RightListener;
-    private DisplayMetrics Metrics;
+    private final onSwipeListener RightListener;
+    private final DisplayMetrics Metrics;
 
     public AdapterSwipeHelper(onSwipeListener leftListener, Drawable leftIcon, Drawable leftBackground, onSwipeListener rightListener, Drawable rightIcon, Drawable rightBackground, DisplayMetrics metrics) {
         super(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT);

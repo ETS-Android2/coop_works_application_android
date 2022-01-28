@@ -50,12 +50,12 @@ public class ConnectionCommandObject {
     
     private Boolean CommandAvailable = false;
     private Boolean ReturnExpected = false;
-    private ArrayList<String> Command = new ArrayList<>();
+    private final ArrayList<String> Command = new ArrayList<>();
 
-    private DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm");
-    private DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yy");
-    private DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yy HH:mm:ss");
-    private Gson gson = new Gson();
+    private final DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm");
+    private final DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yy");
+    private final DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yy HH:mm:ss");
+    private final Gson gson = new Gson();
 
     public void LoginAttempt(String username, String password,String ip, String port){
         if (!CommandAvailable) {

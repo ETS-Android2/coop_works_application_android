@@ -20,13 +20,13 @@
         <action
             android:id="@+id/SplashToSelection"
             app:destination="@id/userSelectionFrag"
-            app:enterAnim="@anim/fragment_fade_enter"
+            app:enterAnim="@android:anim/fade_in"
             app:popUpTo="@id/splashFrag"
             app:popUpToInclusive="true" />
         <action
             android:id="@+id/SplashToDemo"
             app:destination="@id/demoGuideFrag"
-            app:enterAnim="@anim/fragment_fade_enter"
+            app:enterAnim="@android:anim/fade_in"
             app:popUpTo="@id/splashFrag"
             app:popUpToInclusive="true" />
     </fragment>
